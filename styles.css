@@ -1,0 +1,32 @@
+header {
+    background-color: #313C4F;
+    color: white;
+}
+
+.position {
+    color: #44969A;
+}
+
+.contact {
+    background-color: #222A33;
+    padding: 15 px;
+}
+
+nav li {
+    display: inline;
+}
+
+h2 {
+    color: #44969A;
+    text-decoration: underline;
+}
+
+.language_level {
+    color: #44969A;
+    font-style: italic;
+}
+
+
+
+
+skills #808080
