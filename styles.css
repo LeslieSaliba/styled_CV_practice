@@ -7,20 +7,31 @@ header {
     color: #44969A;
 }
 
-.contact {
+nav {
     background-color: #222A33;
     display: flex;
     justify-content: center;
+    padding: 5px;
 }
 
-nav li {
+nav p {
     display: inline;
-    padding: 65px;
+    padding: 2px 50px;
+    margin: 2px 0px;
 }
 
 h2 {
     color: #44969A;
     text-decoration: underline;
+}
+
+.skills_list p {
+    display: inline;
+    background-color: #808080;
+    border-radius: 7px;
+    padding: 5px 15px;
+    margin: 0px 7px;
+    color: white;
 }
 
 .language_level {
@@ -30,4 +41,16 @@ h2 {
 
 .awards_list {
     list-style-type: none;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.column1,
+.column2 {
+    flex: 1;
 }
