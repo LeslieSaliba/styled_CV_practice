@@ -9,11 +9,13 @@ header {
 
 .contact {
     background-color: #222A33;
-    padding: 15 px;
+    display: flex;
+    justify-content: center;
 }
 
 nav li {
     display: inline;
+    padding: 65px;
 }
 
 h2 {
@@ -26,7 +28,6 @@ h2 {
     font-style: italic;
 }
 
-
-
-
-skills #808080
+.awards_list {
+    list-style-type: none;
+}
