@@ -1,3 +1,28 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-display: swap;
+}
+
+.header {
+    display: flex;
+
+    padding: 10px;
+}
+
+.about_section,
+.picture {
+    flex: 1/3;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 70%;
+    object-fit: cover;
+    border: 4px solid #44969A;
+    margin: 15px;
+}
+
 header {
     background-color: #313C4F;
     color: white;
@@ -29,9 +54,15 @@ h2 {
     display: inline;
     background-color: #808080;
     border-radius: 7px;
-    padding: 5px 15px;
-    margin: 0px 7px;
+    padding: 3px 3px;
+    margin: 3px 3px;
     color: white;
+    line-height: 200%;
+}
+
+.languages p {
+    display: inline;
+    line-height: 5px;
 }
 
 .language_level {
@@ -39,8 +70,8 @@ h2 {
     font-style: italic;
 }
 
-.awards_list {
-    list-style-type: none;
+.awards p {
+    line-height: 5px;
 }
 
 
