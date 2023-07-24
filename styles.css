@@ -36,11 +36,12 @@ nav {
     display: flex;
     justify-content: center;
     padding: 5px;
+
 }
 
 nav p {
     display: inline;
-    padding: 2px 50px;
+    padding: 2px 2px;
     margin: 2px 0px;
 }
 
@@ -100,8 +101,9 @@ h2 {
     }
 }
 
-@media (max-width: 1000px) {
-    body {
-        width: 100%;
+@media (max-width: 800px) {
+    nav p {
+        display: flex;
+        flex-direction: column;
     }
 }
