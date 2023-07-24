@@ -5,7 +5,6 @@ body {
 
 .header {
     display: flex;
-
     padding: 10px;
 }
 
@@ -54,14 +53,12 @@ h2 {
     display: inline;
     background-color: #808080;
     border-radius: 7px;
-    padding: 3px 3px;
-    margin: 3px 3px;
     color: white;
-    line-height: 200%;
+    padding: 10px 10px;
+    line-height: 250%;
 }
 
 .languages p {
-    display: inline;
     line-height: 5px;
 }
 
@@ -74,7 +71,6 @@ h2 {
     line-height: 5px;
 }
 
-
 .container {
     display: flex;
     justify-content: space-between;
@@ -84,4 +80,28 @@ h2 {
 .column1,
 .column2 {
     flex: 1;
+}
+
+.column1 {
+    margin: 0px 10px;
+}
+
+.column2 {
+    margin: 0px 10px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .picture {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    body {
+        width: 100%;
+    }
 }
